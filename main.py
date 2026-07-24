@@ -2,4 +2,5 @@ name=input("Enter Your name")
 age =input("enter your age")
 
 result=int(name)+int(age)
-print(result)
+print("hey am get")
+
