@@ -1,2 +1,2 @@
 freinds=["kevin","karen","jim"]
-print(freinds)
+print(freinds[1:3])
