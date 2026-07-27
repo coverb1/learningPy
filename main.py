@@ -30,7 +30,22 @@
 # freinds=['Mucyo',"bruce"]
 # for freind in freinds:
 #     print(freind)
-total=0
-for numbers in range(1,6):
-    total=total+numbers
-    print(total)
+# 
+# student = {
+#     "name": "Bruce",
+#     "age": 21,
+#     "country": "Rwanda"
+# }
+# for key in student:
+#     print(key)
+
+class User:
+    def __init__(self,name,email):
+        self.name=name
+        self.email=email
+    def login(self):
+        print(self.name,"logged in")
+
+user1=User("bruce","bruceEmail@gmail.com")
+print(user1.name)
+user1.login()
